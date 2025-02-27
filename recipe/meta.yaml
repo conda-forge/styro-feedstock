@@ -33,6 +33,7 @@ test:
   requires:
     - pip
     - python {{ python_min }}
+    - git
 
 about:
   home: https://github.com/gerlero/styro
