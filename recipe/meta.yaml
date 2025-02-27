@@ -1,5 +1,5 @@
 {% set name = "styro" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/styro-{{ version }}.tar.gz
-  sha256: 2f71b3ea89ecc452336316884a68a7590ca320af5dd1593985c6c6460b28a532
+  sha256: 488d3e5330cc522c16c026c5e2d258d28a29f7fe557a0a42508d1559be620ab6
 
 build:
   noarch: python
