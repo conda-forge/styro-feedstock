@@ -21,7 +21,6 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - GitPython >=3,<4
     - requests >=2,<3
     - typer-slim >=0.13,<0.16
 
