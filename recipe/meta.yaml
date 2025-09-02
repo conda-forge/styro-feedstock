@@ -22,7 +22,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - aiohttp >=3,<4
-    - typer-slim >=0.13,<0.16
+    - cyclopts >=2,<4
 
 test:
   imports:
