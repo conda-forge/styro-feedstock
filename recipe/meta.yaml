@@ -23,6 +23,7 @@ requirements:
     - python >={{ python_min }}
     - aiohttp >=3,<4
     - cyclopts >=3.23.1,<4
+    - typing-extensions >=4,<5
 
 test:
   imports:
