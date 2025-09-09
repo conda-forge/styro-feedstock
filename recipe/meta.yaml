@@ -22,7 +22,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - aiohttp >=3,<4
-    - cyclopts >=3.23.1,<4
+    - cyclopts >=3.24,<4
     - typing-extensions >=4,<5
 
 test:
@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://github.com/gerlero/styro
-  summary: A package manager for OpenFOAM
+  summary: Package manager for OpenFOAM
   license: GPL-3.0-only
   license_file: LICENSE.txt
 
