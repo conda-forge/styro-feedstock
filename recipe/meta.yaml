@@ -1,5 +1,5 @@
 {% set name = "styro" %}
-{% set version = "0.1.28" %}
+{% set version = "0.1.29" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/styro-{{ version }}.tar.gz
-  sha256: 01119320f1942978b7667963bb61207f0de10ec622a050f53b023e0885a7578a
+  sha256: dd870f18496774aac0d0f652a619ca489196a3e01f789e1b4cacbe1b91a024ea
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - aiohttp >=3,<4
-    - cyclopts >=3.23.1,<4
+    - cyclopts >=3.24,<4
     - typing-extensions >=4,<5
 
 test:
@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://github.com/gerlero/styro
-  summary: A package manager for OpenFOAM
+  summary: Package manager for OpenFOAM
   license: GPL-3.0-only
   license_file: LICENSE.txt
 
