@@ -17,12 +17,12 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - hatchling
+    - uv-build >=0.9,<0.10
     - pip
   run:
     - python >={{ python_min }}
     - aiohttp >=3,<4
-    - cyclopts >=3.24,<4
+    - cyclopts >=3.24,<5
     - typing-extensions >=4,<5
 
 test:
