@@ -22,7 +22,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - aiohttp >=3,<4
-    - cyclopts >=3.24,<4
+    - cyclopts >=3.24,<5
     - typing-extensions >=4,<5
 
 test:
