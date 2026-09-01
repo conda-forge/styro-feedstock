@@ -21,7 +21,8 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - aiohttp >=3,<4
+    - aiohttp >=3.6,<4
+    - aiohttp >=3.13  # [py >= 314]
     - cyclopts >=3.24,<5
     - typing-extensions >=4,<5
 
