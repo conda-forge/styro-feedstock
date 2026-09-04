@@ -1,5 +1,5 @@
 {% set name = "styro" %}
-{% set version = "0.1.33" %}
+{% set version = "0.1.34" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/styro-{{ version }}.tar.gz
-  sha256: cb6abc259f7161e66c2f54f478f51fd608315f84cf933fbfb34168d47741263f
+  sha256: 91eb7d61f05f95f76bc006227a3ed83e9ab0350c4ed3ade6ef696966b989d710
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
@@ -22,7 +22,9 @@ requirements:
   run:
     - python >={{ python_min }}
     - aiohttp >=3.6,<4
+    - aioshutil >=1,<2
     - cyclopts >=3.24,<5
+    - typing-extensions >=4.4,<5
 
 test:
   imports:
