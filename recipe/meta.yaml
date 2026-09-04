@@ -1,5 +1,5 @@
 {% set name = "styro" %}
-{% set version = "0.1.34" %}
+{% set version = "0.1.35" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/styro-{{ version }}.tar.gz
-  sha256: 91eb7d61f05f95f76bc006227a3ed83e9ab0350c4ed3ade6ef696966b989d710
+  sha256: b0574ff6f7a049abe2eabc19df19fad783d73a7a9dc50f85102acd5f3e916d89
 
 build:
   noarch: python
