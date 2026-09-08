@@ -24,6 +24,7 @@ requirements:
     - aiohttp >=3.6,<4
     - aioshutil >=1,<2
     - cyclopts >=3.24,<5
+    - dulwich >=0.24,<2
     - typing-extensions >=4.4,<5
 
 test:
